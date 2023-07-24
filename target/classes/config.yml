@@ -1,0 +1,6 @@
+#Use an RGB format for particles, for example 255,0,0 is pure red.
+
+settings:
+particle-color: 255,0,0
+chat-color: LIGHT_PURPLE
+

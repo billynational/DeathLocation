@@ -1,0 +1,25 @@
+name: Deathlocation
+version: '1.0-SNAPSHOT'
+main: me.billymn.deathlocation.Deathlocation
+api-version: 1.20
+commands:
+  back:
+    description: A command that teleports you to your death location
+    usage: /back
+    permission: teleports.back
+  setcolors:
+    description: A command that change message colors
+    usage: /setcolors
+    permission: teleports.colors
+  reloaddeathlocation:
+    description: reload the plugin configuration and resources.
+    usage: /reloaddeathlocation
+    permission: deathlocation.reload
+  opencolorgui:
+    description: Open the color changer gui
+    usage: /opencolorgui
+    permission: deathlocation.colorgui
+  changeparticle:
+    description: command for changing particles
+    usage: /changeparticle
+    permission: deathlocation.changeparticle
